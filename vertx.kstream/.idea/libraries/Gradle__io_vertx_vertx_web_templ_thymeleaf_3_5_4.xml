@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.vertx:vertx-web-templ-thymeleaf:3.5.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-web-templ-thymeleaf/3.5.4/2935103cff34a59c87def118071b4aac9b84685c/vertx-web-templ-thymeleaf-3.5.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-web-templ-thymeleaf/3.5.4/21ae0f43db1104642fe8a5a21ef549405cafb30/vertx-web-templ-thymeleaf-3.5.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

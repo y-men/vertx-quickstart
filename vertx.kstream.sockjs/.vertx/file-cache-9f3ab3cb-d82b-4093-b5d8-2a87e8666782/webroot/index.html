@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <!--todo Use webjars-->
+  <script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+</head>
+<body>
+<h1><i>Index!</i></h1>
+<script>
+  var sock = new SockJS('http://localhost:8080/rt');
+  sock.onopen = function() {
+    console.log('open');
+    sock.send('test');
+  };
+
+
+  sock.onmessage = function(e) {
+    console.log('message', e.data);
+    //sock.close();
+  };
+
+  sock.onclose = function() {
+    console.log('close');
+  };
+</script>
+</body>
+</html>
